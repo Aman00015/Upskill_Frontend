@@ -14,6 +14,10 @@ export const ColorModeSwitcher = props => {
       aria-label={`Switch to ${text} mode`}
       variant="ghost"
       color="current"
+      position={'fixed'}
+      top={'4'}
+      zIndex={'overlay'}
+      right={'4'}
       marginLeft="2"
       onClick={toggleColorMode}
       icon={<SwitchIcon />}
